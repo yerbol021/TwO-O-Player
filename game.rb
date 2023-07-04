@@ -32,7 +32,7 @@ class Game
     if player_answer == @answer
       puts "#{current_player_name}: Yes, you are correct."
     else
-      puts "#{current_player_name}: Seriously? No!"
+      puts "#{current_player_name}: Seriously? No! You are one score score to lose"
       current_player.decrease_lives
     end
   end
